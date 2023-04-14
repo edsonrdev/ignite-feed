@@ -1,11 +1,15 @@
 import styles from "./Post.module.css";
 
+import { Comment } from "./Comment";
+import { Avatar } from "./Avatar";
+
 export function Post(props) {
   return (
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img
+          <Avatar
+            hasBorder
             src="https://avatars.githubusercontent.com/u/79758730?s=400&u=d84869edc03239f2a54f67fd25e011493a43196e&v=4"
           />
 
@@ -44,6 +48,11 @@ export function Post(props) {
           <button type="submit">Publicar</button>
         </footer>
       </form>
+
+      <div className={styles.commentList}>
+        <Comment />
+        <Comment />
+      </div>
     </article>
   );
 }
