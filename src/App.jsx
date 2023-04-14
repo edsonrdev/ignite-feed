@@ -22,12 +22,8 @@ export function App() {
             "Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀",
         },
         { type: "link", content: "👉 jane.design/doctorcare" },
-        {
-          type: "hashtags",
-          content: ["#novoprojeto", "#nlw", "#rocketseat"],
-        },
       ],
-      publishedAt: new Date("2023-04-14 18:48"),
+      publishedAt: new Date("2023-04-14 18:48:17"),
     },
     {
       id: 2,
@@ -45,12 +41,8 @@ export function App() {
             "Passando aqui para desejar uma ótima Páscoa para todos os Devs(as) da nossa imensa Comunidade Rocketseat!",
         },
         { type: "link", content: "👉 diego3g/felizpascoa" },
-        {
-          type: "hashtags",
-          content: ["#felizpascoa", "#comunidade", "#rocketseat"],
-        },
       ],
-      publishedAt: new Date("2023-04-08 07:16"),
+      publishedAt: new Date("2023-04-08 07:16:54"),
     },
   ];
 
